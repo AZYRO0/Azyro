@@ -104,7 +104,19 @@ select{width:100%;background:#080808;border:1px solid #414141;color:white;paddin
  .value:last-child{border-bottom:0}
 }
 </style>
-</head>
+<style>
+.buy-small {
+  display: none !important;
+}
+
+.product-bottom::after {
+  content: "ÉPUISÉ — RUPTURE DE STOCK";
+  color: #ff5555;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+</style></head>
 <body>
 
 <header class="nav">
